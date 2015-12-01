@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/main.css">
+
+  <title>Task Manager</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Task Manager</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/">Home</a></li>
+        <li><a href="/tasks">Tasks</a></li>
+        <li><a href="/tasks/new">New Task</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+  <div class="container">
+    <%= yield %>
+  </div>
+  </main>
+  <footer class="page-footer">
+       <div class="footer-copyright">
+         <div class="container">
+         © 2015 Brenna Martenson
+         <a class="grey-text text-lighten-4 right" href="#!">Website</a>
+         </div>
+       </div>
+     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+</body>
+</html>

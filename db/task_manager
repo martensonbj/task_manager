@@ -1,6 +1,22 @@
 ---
 tasks:
 - id: 1
-  title: cookies
-  description: chocolate chip
-total: 1
+  title: Clean
+  description: EVERYTHING
+- id: 2
+  title: Fish
+  description: For trout
+- id: 3
+  title: Cook
+  description: The trout
+- id: 4
+  title: Grill
+  description: 'Steak. '
+- id: 5
+  title: Go to Bed
+  description: Est Schlitz shoreditch fashion axe. Messenger bag cupidatat Williamsburg
+    sustainable aliqua, artisan duis pickled pitchfork. Semiotics Banksy ad roof party,
+    jean shorts selvage mollit vero consectetur hashtag before they sold out blue
+    bottle qui nihil aute. Aliquip artisan retro squid ullamco. Vegan enim Williamsburg,
+    eu umami shabby chic single-origin coffee et.
+total: 5

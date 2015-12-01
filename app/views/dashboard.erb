@@ -1,6 +1,37 @@
-<h1> Welcome to the Task Manager</h1>
+<div class="row">
 
-<ul>
-  <li><a href = "/tasks">Task Index</a></li>
-  <li><a href = "/tasks/new">New Task</a></li>
-</ul>
+  <h1> Welcome to the Task Manager</h1>
+
+  <div class = "divider"></div>
+
+  <div class="col s6">
+    <a class="card-link" href="/tasks">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Existing Tasks</span>
+          <p>Your tasks are organized here.</p>
+          <p>Look through your to-do list.</p>
+        </div>
+        <div class="card-action">
+          <a href = "/tasks">Task Index</a>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="col s6">
+    <a class="card-link" href="/tasks/new">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Create A New Task</span>
+          <p>Get your shit together!</p>
+          <p>Create a new taks here.</p>
+        </div>
+        <div class="card-action">
+          <a href="/tasks/new">New Task</a>
+        </div>
+      </div>
+    </a>
+  </div>
+
+</div>

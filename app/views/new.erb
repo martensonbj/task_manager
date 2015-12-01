@@ -1,6 +1,10 @@
 <form action="/tasks" method="post">
-  <p>Enter a new task:</p>
-  <input type="text" name="task[title]"/><br/>
-  <textarea name="task[description]"></textarea><br/>
-  <input type='submit'/>
+  <label for="task_name">Enter a new task:</label>
+  <input placeholder="task name" id="task_name" type="text" name="task[title]"/><br/>
+  <label for="task_description">Enter a description:</label>
+  <textarea id="task_description" placeholder="enter details here!" name="task[description]"></textarea><br/>
+  <button class="btn waves-effect waves-light btn-large cyan darken-4" type="submit" name="action">
+    <i class="material-icons left">playlist_add</i>
+    <span>ADD TO LIST</span>
+  </button>
 </form>
