@@ -3,7 +3,7 @@ html, body, h1, h2, h3, p, a, .card .card-content .card-title, footer.page-foote
 }
 
 html {
-  color: rgba(47,47,47,0.87);
+  color: rgba(82, 80, 80, 0.87);
 }
 body {
   background-color: #26a69a;
@@ -22,7 +22,16 @@ footer.page-footer {
   padding: 20px 0;
 }
 
-h3 a {
+table {
+  width: 80%auto;
+  margin: 0 auto;
+}
+
+tr {
+  border: 1px dashed #aaa;
+}
+
+h3 a.task_link {
     display: block;
     background-color: #D0D0D0;
     color: #374C56;
@@ -48,6 +57,12 @@ h3 {
   margin: 20px auto;
 }
 
+.lightweight {
+  background-color: rgba(255,255,255,0.3);
+  padding: 10px;
+  box-shadow: 1px 1px 20px #888;
+}
+
 nav {
     background-color: #772442;
     box-shadow: 5px 0px 20px #000;
@@ -55,6 +70,12 @@ nav {
 
 nav .brand-logo {
   margin-left: 20px;
+}
+
+nav .button-collapse {
+    float: left;
+    position: relative;
+    left: 15px;
 }
 
 form {
@@ -141,4 +162,16 @@ p.show_description {
   font-size: 18px;
   letter-spacing: 5px;
   word-spacing: 14px;
+}
+
+.side-nav li:hover, .side-nav li.active {
+    background-color: #13534D;
+}
+
+.side-nav a {
+    color: #fff;
+    display: block;
+    font-size: 1.5rem;
+    border-bottom: 1px dashed #ccc;
+    padding: 0px 10px;
 }

@@ -1,0 +1,12 @@
+<h1>Edit Task</h1>
+
+<form action="/tasks/<%= @task.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+
+  <input id="task_name" type="text" value="<%= @task.title %>" name="task[title]"/><br/>
+  <textarea id="task_description" name="task[description]"><%= @task.description %></textarea><br/>
+  <button class="btn waves-effect waves-light btn-large cyan darken-4" type="submit" name="action">
+    <i class="material-icons left">repeat</i>
+    <span>MAKE CHANGE</span>
+  </button>
+</form>

@@ -1,5 +1,9 @@
-<h1>All Tasks</h1>
+<h1>Task Index</h1>
 
 <% @tasks.each do |task| %>
-  <h3><a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
+  <h3>
+    <a class="task_link" href="/tasks/<%= task.id %>"><%= task.title %></a>
+      <a href="/tasks/<%= task.id %>/edit">Edit</a>
+  </h3>
+
 <% end %>
